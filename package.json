@@ -1,6 +1,6 @@
 {
   "name": "polyrhythmjs-assimp-import",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "scripts": {
     "build": "rollup -c"
@@ -14,6 +14,7 @@
   "files": [
     "build"
   ],
+  "type": "module",
   "dependencies": {
     "assimpjs": "^0.0.10",
     "gl-matrix": "^3.4.3",
