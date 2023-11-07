@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Build",
+            "request": "launch",
+            "runtimeArgs": [
+                "run",
+                "build"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "outputCapture": "std",
+            "type": "node"
+        }
+    ]
+}

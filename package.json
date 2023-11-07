@@ -1,0 +1,37 @@
+{
+  "name": "polyrhythmjs-assimp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "homepage": "https://github.com/Reimnop/polyrhythm.js-assmimp",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Reimnop/polyrhythm.js-assimp"
+  },
+  "main": "build/index.js",
+  "dependencies": {
+    "assimpjs": "^0.0.10",
+    "gl-matrix": "^3.4.3",
+    "pa-prefab": "^2.0.0",
+    "polyrhythmjs": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.8.7",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "3.0.3",
+    "rollup": "^4.1.4",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2"
+  },
+  "author": "",
+  "license": "MIT"
+}
