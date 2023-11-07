@@ -5,7 +5,13 @@
     "forceConsistentCasingInFileNames": true,
     "downlevelIteration": true,
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "typeRoots": [
+      "./typings"
+    ],
+    "lib": [
+      "ESNext"
+    ]
   },
   "exclude": [
     "demo",

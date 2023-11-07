@@ -1,13 +1,13 @@
 import { mat3, mat4, quat, vec3 } from "gl-matrix";
 import { NodeAnimation, NodeMesh, Scene, SceneAnimation, SceneCamera, SceneLight, SceneLightType, SceneMaterial, SceneMesh, SceneNode, TypedKey, Vertex } from "polyrhythmjs";
 import { AssimpSceneAnimation } from "./SceneAnimation";
+import assimp, { TextDecoder } from "assimpjs";
 
 export class AssimpImport {
     private assimpJs: any;
-    private readonly files: Map<string, ArrayBuffer> = new Map<string, ArrayBuffer>();
+    private readonly files: Map<string, ArrayBuffer> = new Map();
 
     async loadAssimp() {
-        const assimp = require("assimpjs");
         this.assimpJs = await assimp();
     }
 
