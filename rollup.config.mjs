@@ -8,7 +8,7 @@ export default [
         input: "src/index.ts",
         output: {
             dir: "build",
-            format: "esm",
+            format: "umd",
             name: "polyrhythmjs-assimp-import",
             sourcemap: true,
             globals: {

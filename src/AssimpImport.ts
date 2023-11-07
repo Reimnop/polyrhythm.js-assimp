@@ -1,7 +1,8 @@
 import { mat3, mat4, quat, vec3 } from "gl-matrix";
 import { NodeAnimation, NodeMesh, Scene, SceneAnimation, SceneCamera, SceneLight, SceneLightType, SceneMaterial, SceneMesh, SceneNode, TypedKey, Vertex } from "polyrhythmjs";
 import { AssimpSceneAnimation } from "./SceneAnimation";
-import assimp, { TextDecoder } from "assimpjs";
+
+const assimp = require("assimpjs");
 
 export class AssimpImport {
     private assimpJs: any;
