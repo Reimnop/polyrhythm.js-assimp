@@ -8,6 +8,7 @@
     "strict": true
   },
   "exclude": [
-    "demo"
+    "demo",
+    "build"
   ]
 }
