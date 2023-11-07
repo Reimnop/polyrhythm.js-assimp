@@ -11,6 +11,9 @@
     "url": "https://github.com/Reimnop/polyrhythm.js-assimp"
   },
   "main": "build/index.js",
+  "files": [
+    "build"
+  ],
   "dependencies": {
     "assimpjs": "^0.0.10",
     "gl-matrix": "^3.4.3",
