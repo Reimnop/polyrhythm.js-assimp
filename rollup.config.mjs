@@ -9,7 +9,7 @@ export default [
         output: {
             dir: "build",
             format: "umd",
-            name: "polyrhythmjs-assimp",
+            name: "polyrhythmjs-assimp-import",
             sourcemap: true,
             globals: {
                 "gl-matrix": "glMatrix"
